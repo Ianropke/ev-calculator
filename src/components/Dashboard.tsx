@@ -48,10 +48,10 @@ export default function Dashboard() {
             <div className="p-3 bg-blue-600 rounded-2xl text-white shadow-xl shadow-blue-600/30">
                <BatteryCharging size={28} />
             </div>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight">EV Cost Calc.</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight">Ladeberegneren</h1>
           </div>
           <p className="text-lg text-slate-600 font-medium max-w-2xl mx-auto lg:mx-0">
-            Find den billigste ladeløsning. Fuld sammenligning af Clever One, Serviceaftale, Pay-As-You-Go og konkurrenter.
+            Find den billigste ladeløsning. Fuld sammenligning af Clever One, Serviceaftale, E.ON Drive Plus og Pay-As-You-Go.
           </p>
         </header>
 
@@ -73,8 +73,8 @@ export default function Dashboard() {
               <CostComparisonChart result={result} />
               
               <div className="bg-white/80 backdrop-blur-xl p-6 rounded-3xl shadow-lg border border-white/20 flex flex-col justify-center">
-                 <h3 className="text-lg font-semibold text-slate-800 mb-2">Breakeven Punkter</h3>
-                 <p className="text-slate-500 text-xs mb-4">Km/år før Clever One er billigst mod:</p>
+                 <h3 className="text-lg font-semibold text-slate-800 mb-2">Breakeven-punkter</h3>
+                 <p className="text-slate-500 text-xs mb-4">Årligt kørselsbehov (km) før Clever One bliver billigere end:</p>
                  
                  <div className="space-y-3">
                     <div className="flex justify-between items-center text-sm border-b border-slate-100 pb-2">

@@ -11,7 +11,7 @@ export default function LocalChargingInfo() {
       power: '300 kW',
       badgeColor: 'bg-emerald-100 text-emerald-800 border-emerald-200',
       networkBadge: 'bg-emerald-600 text-white',
-      desc: 'Super hurtig opladning. Perfekt til Clever One (inkluderet gratis).'
+      desc: 'Superhurtig opladning. Inkluderet uden ekstra beregning i Clever One.'
     },
     {
       name: 'Friheden Station',
@@ -22,7 +22,7 @@ export default function LocalChargingInfo() {
       power: '22 kW',
       badgeColor: 'bg-indigo-100 text-indigo-800 border-indigo-200',
       networkBadge: 'bg-indigo-600 text-white',
-      desc: 'AC-opladning. Fordelagtigt med en Serviceaftale (fx Spirii).'
+      desc: 'AC-opladning. Oplagt valg med en Serviceaftale (fx Spirii).'
     },
     {
       name: 'Hvidovre Torv 11',
@@ -49,7 +49,7 @@ export default function LocalChargingInfo() {
         <h3 className="text-xl font-bold text-slate-800 flex items-center gap-2">
           <span>📍</span> Lokal dækning ved Frydenhøjparken 247
         </h3>
-        <p className="text-xs text-slate-500 mt-1">Hvordan ser opladningsmulighederne ud i hendes nærområde?</p>
+        <p className="text-xs text-slate-500 mt-1">Hvordan ser opladningsmulighederne ud i dit nærområde?</p>
       </div>
 
       {/* Convenience Scorecard */}
